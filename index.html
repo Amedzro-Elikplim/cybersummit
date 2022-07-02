@@ -25,6 +25,9 @@
     ></script>
     <script src="https://cdn.logwork.com/widget/countdown.js"></script>
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Cyber Security Summit</title>
   </head>
   <body>
@@ -32,7 +35,7 @@
       <section class="container-fluid hero">
         <nav class="navbar navbar-expand-lg navbar-div p-3">
           <div class="container-fluid nav-div">
-            <a class="navbar-brand brand" href="#"> Cybersecurity </a>
+            <a class="navbar-brand brand" href="#" data-aos="fade-right"  data-aos-duration="1500"> Cybersecurity </a>
             <button
               class="navbar-toggler"
               type="button"
@@ -42,7 +45,7 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span  class="navbar-toggler-icon button-icon"></span>
+              <span class="navbar-toggler-icon button-icon"></span>
             </button>
             <div class="collapse navbar-collapse nav-items" id="navbarNav">
               <ul class="navbar-nav nav-links">
@@ -59,7 +62,12 @@
           </div>
         </nav>
 
-        <div class="event-name">
+        <div
+          class="event-name"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <h1>
             THE CYBERSECURITY <span class="summit">SUMMIT</span>, GHANA 2022
           </h1>
@@ -83,35 +91,58 @@
 
       <section>
         <div class="d-flex info">
-            <div>
-               <img src="./images/info1.jpg" class="event-image" alt="image">
-            </div>
-            <div class="d-flex details">
-                <h3>Cyber Security awareness Starts here...</h3>
-                <p>The Cyber Security Summit, Ghana 2022 is a virtual program featuring experts in the field of cyber security, addressing hundreds of attendees in realtime.
-                    The aim is to create awareness among the general public on the how to secure the cyber space of Ghana and the threats that the lack of such security poses to Ghana as a country. 
-                </p>
-                <p>Discussion will be held on ways that an individual can protect himself when surfing on the internet and proven steps to start a career in Cybersecurity</p>
-            </div>
+          <div>
+            <img src="./images/info1.jpg" class="event-image" alt="image" />
+          </div>
+          <div data-aos="fade-up" class="d-flex details">
+            <h3>Cyber Security awareness Starts here...</h3>
+            <p>
+              The Cyber Security Summit, Ghana 2022 is a virtual program
+              featuring experts in the field of cyber security, addressing
+              hundreds of attendees in realtime. The aim is to create awareness
+              among the general public on the how to secure the cyber space of
+              Ghana and the threats that the lack of such security poses to
+              Ghana as a country.
+            </p>
+            <p>
+              Discussion will be held on ways that an individual can protect
+              himself when surfing on the internet and proven steps to start a
+              career in Cybersecurity
+            </p>
+          </div>
         </div>
       </section>
 
       <section class="speakers">
         <h2 class="speaker-title">Speakers</h2>
         <div class="d-flex speaker-div">
-          <div class="text-center speaker">
-            <img src="./images/speaker1.jpg" alt="speaker 1" width="500px" height="500px" >
+          <div data-aos="fade-down" class="text-center speaker">
+            <img
+              src="./images/speaker1.jpg"
+              alt="speaker 1"
+              width="500px"
+              height="500px"
+            />
             <p class="name">Mrs Mabel Brown</p>
             <p class="position">CEO, CyberHack</p>
           </div>
 
           <div class="text-center speaker">
-            <img src="./images/speaker2.jpg" alt="speaker 1" width="500px" height="500px" >
+            <img
+              src="./images/speaker2.jpg"
+              alt="speaker 1"
+              width="500px"
+              height="500px"
+            />
             <p class="name">Mr Theophilus Lawson</p>
             <p class="position">Founder, EducationTop</p>
           </div>
         </div>
       </section>
     </main>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
