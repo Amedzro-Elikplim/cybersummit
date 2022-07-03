@@ -92,7 +92,7 @@
 }
 
 .rsvp-btn:hover {
-    color: white !important;
+  color: white !important;
 }
 
 .info {
@@ -137,7 +137,7 @@
 
 .speaker-image {
   width: 500px;
-  height: 500px; 
+  height: 500px;
 }
 
 .name {
@@ -181,7 +181,6 @@
     flex-direction: column;
   }
 
-
   .details {
     margin: 20px;
   }
@@ -197,9 +196,10 @@
   .info {
     gap: 20px;
   }
-  
+
   .speaker-image {
-  width: 90%;
-  height: 500px; 
-}
+    width: 95%;
+    height: 50vh ;
+    border-radius: 10px;
+  }
 }
