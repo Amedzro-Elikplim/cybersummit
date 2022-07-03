@@ -118,7 +118,7 @@
   text-align: center;
   font-family: Raleway, sans-serif;
   margin-top: 80px;
-  font-size: 60px;
+  font-size: 4rem;
   font-weight: bold;
   color: rgb(11, 100, 8);
 }
@@ -166,6 +166,10 @@
   display: none;
 }
 
+.powered h1 {
+  color: rgb(11, 100, 8);
+}
+
 @media (max-width: 968px) {
   .info {
     flex-direction: column;
@@ -174,7 +178,7 @@
   .hero {
      min-height: 50vh;
     padding: 0px 5px 20px 10px !important;
-  }
+  } 
 
   .tickets-mobile {
     display: block;
@@ -184,7 +188,6 @@
     border: none;
     outline: none;
     color: white;
-    margin-right: 5px;
   }
 
   .tickets-mobile a:hover {
@@ -245,6 +248,11 @@
 
   .powered {
     flex-direction: column;
+  }
+
+  .powered h1 {
+    margin: 20px;
+    text-align: center;
   }
 
   .gse-logo {
