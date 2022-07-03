@@ -135,15 +135,17 @@
   width: 100%;
   height: 500px;
   object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .name {
   font-weight: bold;
-  font-size: larger;
+  font-size: x-large;
 }
 
 .position {
   margin-top: -10px;
+  font-size: large;
 }
 
 .event-image {
@@ -165,6 +167,10 @@
 
 .tickets-mobile {
   display: none;
+}
+
+.powered {
+  display: flex;
 }
 
 .powered h1 {
