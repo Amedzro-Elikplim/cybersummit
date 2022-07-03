@@ -61,7 +61,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  min-height: 30vh;
   margin-top: 100px !important;
 }
 
@@ -70,10 +70,6 @@
   text-align: center;
   font-family: Raleway, san-serif;
   font-weight: bold;
-}
-
-.summit {
-  color: rgb(11, 100, 8);
 }
 
 .event-name p {
@@ -154,9 +150,53 @@
   height: 360px;
 }
 
+.partner-title {
+  font-family: Raleway, sans-serif;
+  margin-top: 80px;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(11, 100, 8);
+}
+
+.gse-logo {
+  width: 60%;
+}
+
+.tickets-mobile {
+  display: none;
+}
+
 @media (max-width: 968px) {
   .info {
     flex-direction: column;
+  }
+
+  .hero {
+     min-height: 50vh;
+    padding: 0px 5px 20px 10px !important;
+  }
+
+  .tickets-mobile {
+    display: block;
+    border-radius: 5px;
+    padding: 0 10px !important;
+    background-color: rgb(11, 100, 8);
+    border: none;
+    outline: none;
+    color: white;
+    margin-right: 5px;
+  }
+
+  .tickets-mobile a:hover {
+    color: white !important;
+  }
+
+  .tickets-mobile a {
+    color: white;
+  }
+
+  .tickets-mobile {
+    display: block;
   }
 
   .event-name p {
@@ -165,12 +205,12 @@
   }
 
   .event-name {
-    margin-top: 150px !important;
+    margin-top: 30px !important;
+    
   }
 
   .event-name h1 {
-    font-size: 40px;
-    margin: 20px;
+    font-size: 30px;
   }
 
   .event-image {
@@ -199,7 +239,16 @@
 
   .speaker-image {
     width: 95%;
-    height: 50vh ;
+    height: 50vh;
     border-radius: 10px;
+  }
+
+  .powered {
+    flex-direction: column;
+  }
+
+  .gse-logo {
+    width: 90%;
+    height: 60vw;
   }
 }
