@@ -162,6 +162,11 @@
     margin-top: 200px !important;
   }
 
+  .event-name h1 {
+    font-size: 40px;
+    margin: 20px;
+  }
+
   .event-image {
     width: 100vw;
   }
@@ -172,5 +177,9 @@
 
   .details {
     margin: 10px;
+  }
+
+  .nav-items {
+    margin-top: 10px;
   }
 }
